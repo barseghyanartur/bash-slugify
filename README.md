@@ -4,15 +4,16 @@
 
 Place `slugify.sh` into your `~/.local/bin/` directory as `slugify` and assign executable permissions to it.
 
-```shell-script
-wget -O ~/.local/bin/slugify https://raw.githubusercontent.com/barseghyanartur/bash-slugify/main/slugify.sh
-chmod +x ~/.local/bin/slugify
-```
-
-Or just use one-liner:
+**Using `wget`**
 
 ```shell-script
 wget -O ~/.local/bin/slugify https://raw.githubusercontent.com/barseghyanartur/bash-slugify/main/slugify.sh && chmod +x ~/.local/bin/slugify
+```
+
+**Using `curl`**
+
+```shell-script
+curl -o ~/.local/bin/slugify https://raw.githubusercontent.com/barseghyanartur/bash-slugify/main/slugify.sh && chmod +x ~/.local/bin/slugify
 ```
 
 ## Usage examples
@@ -30,7 +31,7 @@ python -m tests
 
 ## License
 
-LGPL-2.1-or-later
+MIT
 
 ## Author
 
